@@ -28,7 +28,7 @@ Each task you solved in the first section is a single package which needs to be 
 
 ## 3. Create build-and-test job
 
-Create a job called `bazel-build-and-test` which will build and test your proving-grounds repository using bazel.
+Create a job called `build-and-test-with-bazel` which will build and test your proving-grounds repository using bazel.
 
 **Hint:** Zuul will clone your repository to `/root/src/gerrit/proving-grounds/` node location.
  
