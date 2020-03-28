@@ -36,6 +36,6 @@ Add your newly created job to **check** and **gate** pipelines.
 
 ## 4. Parse job log file
 
-Create a playbook which will parse the output of `bazel-build-and-test` job and extract the information on how many tests were executed and how many of them have passed. 
+Create a playbook which will parse the output of `build-and-test-with-bazel` job and extract the information on how many tests were executed and how many of them have passed. 
 
 Collected information can be displayed in the node terminal output **(good)** or you can write to a file and store it at the same location where the logs are being stored **(impressive)**.
